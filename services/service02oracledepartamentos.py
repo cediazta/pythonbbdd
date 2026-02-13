@@ -33,14 +33,6 @@ class ServiceDepartamentos:
         registros = cursor.rowcount
         cursor.close()
         return registros
-    
-    def mostrarDepartamentos(self):
-        cursor = self.connection.cursor()
-        sql = "select * from DEPT"
-        cursor.execute(sql)
-        for row in cursor:
-            print(f"Codigo: {row[0]} - Nombre: {row[1]} - Localidad: {row[2]}")
-        cursor.close()
 
     def consultaDepartamento(self, consulta):
         cursor = self.connection.cursor()
