@@ -1,7 +1,5 @@
 from services import service02oracledepartamentos as sv
 
-
-
 print("------ MENU DE OPCIONES ------")
 print("1.- Mostrar Departamentos.")
 print("2.- Insertar Departamento.")
