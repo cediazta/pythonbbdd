@@ -1,5 +1,5 @@
 import os
-from services import service04oracledoctores as services
+from services import service04sqldoctores as services
 
 # FUNCIONES POR PANTALLA
 def limpiar_pantalla():
